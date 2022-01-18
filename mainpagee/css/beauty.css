@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(234, 241, 247);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS'
+}
+
+h1, h2 {
+    margin-top: 4px;
+    font-family: 'Comic Sans MS'
+}
+
+nav {
+    background-color: rgb(20,150,130);
+    display:flex;
+}
+
+nav div {
+    padding:12px;
+    border:6px solid rgb(9,0,17);
+    justify-content:space-evenly;
+}
+
+.imagegallery {
+    margin:0;
+    padding:0;
+    width:100%;
+    display:flex;
+    border:1px solid red;
+}
+
+.imagegallery figure {
+    display:block;
+    border:1px solid blue;
+}
+
+.imagegallery img {
+    width:100%;
+    height:200px;
+    object-fit: cover;
+}
+
+header {
+    padding-top:40vh;
+    color: rgb(45, 13, 53);
+    height:40vh;
+    background-image:url(https://cdn.discordapp.com/attachments/386859434862837773/894926640990281758/wawaaw.png);
+    background-size:cover;
+    background-position:center;
+}
+
+section {
+    background-color: rgb(9,0,17);
+    padding: 20px;
+    margin: 20px auto;
+    color: rgb(237, 227, 240);
+    font-size: 1.1em;
+    max-width:800px;
+}
+
+footer {
+    background-color: rgb(20,150,130);
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    text-allign:center;
+    justify-content:center;
+}
+
+figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    opacity: 0.4;
+}
